@@ -695,6 +695,9 @@ footer {
     border-top: none;
     height:2.33em;
   }
+  .nav-active:active  {
+    color: black;
+  }
   .title-head {
     padding-top: 5%;
   }
