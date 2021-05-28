@@ -514,6 +514,7 @@ footer {
     }
   .hotels {
     background-color: white;
+    padding-top: 0%;
   }
   .accom h3 {
     align-content: center;
@@ -549,10 +550,12 @@ footer {
       box-shadow: none;
   }
   .hotels {
-    flex-direction: column;
+    flex-direction: column-reverse;
     padding: 0;
     margin: 0;
-    padding-top: 2%;
+  }
+  .accom  {
+    padding: 0%;
   }
   .active {
     flex-direction: column;
@@ -568,12 +571,14 @@ footer {
     width: 100%;
   }
   .popular  {
-    flex-direction: column;
     width: 100%;
     margin: 0;
     padding: 0%;
     background-color: white;
     border-radius:0mm;
+  }
+  .pop-card-wrap  {
+    padding-bottom: 2%;
   }
   .popart {
     background-color: #f2f2f2;
@@ -581,6 +586,7 @@ footer {
   .pop-title  {
     text-align: center;
     font-weight: bolder;
+    margin-top: 0%;
   }
   .activities img {
     width: 75%;
