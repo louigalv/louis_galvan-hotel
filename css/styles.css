@@ -649,7 +649,6 @@ footer {
     height: 6em;
     justify-content: center;
     margin: 0 auto;
-    width: 80%;
   }
   .header-logo {
   position: relative;
@@ -666,6 +665,7 @@ footer {
   position: relative;
   line-height: 5rem;
   padding: 2rem;
+  left: 1em;
   }
   .activ-link {
     position: relative;
